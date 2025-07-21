@@ -1,0 +1,97 @@
+html {
+  font-size: 16px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(154, 151, 151);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  width: 20vw;
+  height: 55vh;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+
+.img {
+  width: 19.3vw;
+  height: 25vh;
+  border-radius: 20px;
+  position: relative;
+  top: 5px;
+  left: 5px;
+  padding: 5px;
+}
+
+.button {
+  width: 5vw;
+  height: 5vh;
+  background-color: white;
+  border: 2px solid white;
+  box-shadow: 1px 1px 5px 1px grey;
+  border-radius: 20px;
+  color: rgb(56, 55, 55);
+  padding: 5px;
+  position: relative;
+  left: 30px;
+  top: 25px;
+}
+
+.b2 {
+  position: relative;
+  left: 45px;
+}
+
+.heading {
+  position: relative;
+  top: 45px;
+  left: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.desc {
+  position: relative;
+  top: 45px;
+  left: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  width: 350px;
+}
+
+.b3 {
+  width: 6vw;
+  height: 5vh;
+  background-color: rgb(178, 178, 255);
+  border: 2px solid white;
+  border-radius: 20px;
+  color: blue;
+  padding: 5px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 127px;
+  top: 55px;
+}
