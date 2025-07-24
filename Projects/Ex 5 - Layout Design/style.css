@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --color: rgb(0, 255, 55);
+  --seccolor: rgb(141, 240, 114);
+}
+
+body {
+  background-color: var(--seccolor);
+}
+
+header {
+  position: sticky;
+  top: 0;
+}
+
+ul {
+  text-align: center;
+  background-color: var(--color);
+  font-weight: 600;
+  font-style: normal;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 15px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.box {
+  width: 20vw;
+  height: 45vh;
+  background-color: var(--color);
+  border: 2px solid var(--color);
+  display: inline-block;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 10px 10px 10px black;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 100px;
+}
+
+.img1,
+.img2 {
+  border-radius: 20px;
+}
+
+h1 {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.desc {
+  width: 80vw;
+  height: 30vh;
+  background-color: var(--color);
+  border: 2px solid var(--color);
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px black;
+}
+
+.desc-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.desc h1 {
+  font-size: 35px;
+  text-align: center;
+}
+
+.desc h2 {
+  font-size: 18px;
+  padding: 5px 15px;
+  font-weight: 500;
+}
+
+.foot {
+  width: 99.2vw;
+  height: 5.5vh;
+  background-color: var(--color);
+  margin-top: 5vh;
+}
+
+.foot p {
+  text-align: center;
+  font-size: 15px;
+}
+
+.logo {
+  border-radius: 40px;
+  position: fixed;
+  bottom: 2vh;
+  right: 2vw;
+  border: 3px solid black;
+}
