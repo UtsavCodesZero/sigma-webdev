@@ -1,12 +1,11 @@
 🌐 Sigma Web Development Course – My Learning Journey
 
-This repository contains all the projects and exercises from the **Sigma Web Development Course by CodeWithHarry**. It's a complete track of my journey from beginner to full-stack web developer.
+This repository contains all the projects and exercises from the **Sigma Web Development Course by CodeWithHarry** and some self-made projects of mine. It's a complete track of my journey from beginner to full-stack web developer.
 
 🚀 Why This Repo Exists
 
 I created this to:
 - 📖 Track my learning in public
-- 🛠️ Practice version control with Git
 - 📂 Build a portfolio of small projects
 - 🌱 Grow gradually into a confident web developer
 
