@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.head1 {
+  font-family: "Germania One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10rem;
+  color: rgb(148, 210, 210);
+}
+
+.head2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+
+.highlight1 {
+  color: red;
+}
+
+.highlight2 {
+  color: orange;
+}
+
+.highlight3 {
+  color: rgb(0, 255, 51);
+}
+
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.card-container {
+  color: black;
+  background-color: rgb(148, 210, 210);
+  width: 25vw;
+  border: 2px solid rgb(110, 106, 106);
+  border-radius: 20px;
+  box-shadow: 3px 3px 10px black;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 2.5vw;
+  margin: 2.5vw; 
+}
+
+.head-k,
+.head-b,
+.head-l {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.img-k,
+.img-b,
+.img-l {
+  width: 100%;
+  height: 300px; /* Fixed height for consistency */
+  object-fit: cover; /* Ensures the image fills the box without distortion */
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.para-k,
+.para-b,
+.para-l {
+  font-weight: 500;
+  font-style: normal;
+}
+
+.button-k,
+.button-b,
+.button-l {
+  /* background-color: white; */
+  border-radius: 10px;
+  border: 0.5px solid blue;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.button-k {
+  position: relative;
+  right: 20px;
+  background-color: red;
+}
+
+.button-b, .button-l {
+  position: relative;
+  top: 23px;
+}
+
+.button-b {
+  background-color: orange;
+}
+
+.button-l {
+  background-color: green;
+}
+
+
